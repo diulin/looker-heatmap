@@ -8,7 +8,7 @@ looker.plugins.visualizations.add({
     `;
 
     for(var row of data) {
-      var cell = row[queryResponse.fields.dimensions[0].name];
+      var cell = row[queryResponse.fields.dimensions[0].name] + 1;
       html += "<tr><td>" + LookerCharts.Utils.htmlForCell(cell) + "</td></tr>";
     }
     html += "</table>";
