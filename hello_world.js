@@ -1,6 +1,6 @@
 looker.plugins.visualizations.add({
   create: function(element, config){
-    element.innerHTML = "<h1>Ready to render!</h1>";
+    element.innerHTML = "<h1>vvvv Ready to render!</h1>";
   },
   updateAsync: function(data, element, config, queryResponse, details, doneRendering){
     var html = `<h1>Ready to render!</h1>
